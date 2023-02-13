@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Test MyCircle Default Constructor",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testDefaultConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test MyCircle constructor with one argument",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testCenterConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test MyCircle constructor with 2 arguments",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testXYConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test MyCircle constructor with 3 arguments",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testXYCenterConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test constructor with negative argument",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testNegativeRadiusConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test radius setter",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testRadiusSetter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test x,y setters",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testXYSetters",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test contains method",
+      "setup": "",
+      "run": "gradle test --tests TestMyCircle.testContains",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
